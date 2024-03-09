@@ -1,0 +1,25 @@
+body {
+    background-color: #f0f0f0; /* Couleur de fond */
+    margin: 0; /* Supprime les marges par défaut du corps */
+    padding: 0; /* Supprime le rembourrage par défaut du corps */
+    font-family: Arial, sans-serif; /* Police par défaut */
+  }
+  
+  /* Conteneur principal */
+  .container {
+    width: 80%; /* Largeur du conteneur */
+    margin: 0 auto; /* Centrage horizontal */
+    background-color: white; /* Couleur de fond */
+    border: 2px solid black; /* Bordure */
+    padding: 20px; /* Rembourrage */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre */
+  }
+  
+  /* Style pour les images */
+  img {
+    display: block; /* Pour centrer l'image */
+    margin: 0 auto; /* Centrer l'image horizontalement */
+    max-width: 100%; /* Largeur maximale de l'image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+    margin-bottom: 20px; /* Marge inférieure pour l'espace entre les images */
+  }

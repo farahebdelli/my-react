@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./style.css"; // Importer le fichier CSS externe
+import farahImage from "./react/farah.jpg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1 className="title red">Voila</h1>
+      <br />
+      <img
+        src={process.env.PUBLIC_URL + "/asset/img.jpg"}
+        alt="Image in Public"
+      />
+      <br />
+      <img src={farahImage} alt="Image in src" />
     </div>
   );
 }
